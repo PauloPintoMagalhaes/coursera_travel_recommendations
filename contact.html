@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us -Travel Recommendations</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+    <!-- Top Navigation bar -->
+    <div class="navbar">
+        <a href="travel_recommendation.html">
+            <img src="static/travel-logo-template.jpg" alt="Logo" style="height: 50px; vertical-align: middle;">
+        </a>
+        <a href="travel_recommendation.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+</head>
+<body>
+    <!-- Contact Form -->
+    <div class="vertical-container">
+        <div class="horizontal-container">
+            <div class="text-box">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <form action="/submit_contact" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                    <button type="submit">Submit</button>∂
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+</body>
+<!-- Footer at the bottom -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Travel Recommendations, by Paulo Magalhaes. All Rights Reserved =D.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="static/logo-facebook_2.png" alt="Facebook" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="static/logo-twitter.png" alt="Twitter" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="static/logo-instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="static/logo-linkedin.png" alt="LinkedIn" />
+            </a>
+        </div>
+    </div>
+</footer>
+</html>

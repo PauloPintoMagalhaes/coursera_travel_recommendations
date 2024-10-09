@@ -1,0 +1,159 @@
+/* Basic styling for the navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar.search-bar input[type="text"] {
+    float: left;
+    padding: 6px;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.navbar button {
+    float: left;
+    padding: 10px;
+    margin: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #45a049;
+}
+/* Basic styling for the body */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: url('static/city_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    color: white;
+    position: relative;
+}
+
+
+.intro-container {
+    position:relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Styling for individual text boxes in the main page */
+.intro-box {
+    background-color: rgba(30, 28, 28, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(30, 29, 29, 0.2);
+    max-width: 70vh;
+}
+
+.vertical-container {
+    position:relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Styling for individual text boxes in the main page */
+.text-box {
+    background-color: rgba(30, 28, 28, 0.7);
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(30, 29, 29, 0.2);
+}
+
+.horizontal-container {
+    position:relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Basic styling for the contact form */
+.contact-container {
+    padding: 40px;
+    background-color: rgba(30, 28, 28, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(30, 29, 29, 0.2);
+    display: flex;
+    position:relative;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-container input, 
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #45a049;
+}
+
+/* Basic styling for the footer */
+footer {
+    background-color: #333;
+    color: white; 
+    padding: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 0 10px; /* Space between icons */
+}
+
+.social-media img {
+    height: 30px; /* Set the height of the social media icons */
+    width: 30px; /* Set the width of the social media icons */
+}
